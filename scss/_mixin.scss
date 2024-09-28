@@ -1,0 +1,13 @@
+@mixin Roboto ($fs,$fw, $lh) {
+    font-size: $fs;
+    font-weight: $fw;
+    line-height: $lh;
+    font-family: 'Roboto', sans-serif;
+}
+@mixin flex ($fd, $jc, $ai, $gap) {
+    display: flex;
+    flex-direction: $fd;
+    justify-content: $jc;
+    align-items: $ai;
+    gap: $gap;
+}
